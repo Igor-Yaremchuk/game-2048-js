@@ -104,22 +104,18 @@ document.addEventListener('keyup', e => {
     switch (e.code) {
       case 'ArrowLeft':
         slideLeft();
-        // setNewCell();
         break;
 
       case 'ArrowRight':
         slideRight();
-        // setNewCell();
         break;
 
       case 'ArrowUp':
         slideUp();
-        // setNewCell();
         break;
 
       case 'ArrowDown':
         slideDown();
-        // setNewCell();
         break;
     }
   }
